@@ -18,7 +18,7 @@ rcs <- function(x, knts) {
 
 preddat <- read.csv("./utils/example_input.csv")
 
-predict_rcc <- function(data="./expample_input.csv", output="./example_output.csv") {
+rcc_predict <- function(data="./input.csv", output="./output.csv") {
   ### Parameters
   ## age knots
   aknots <- c(40,50,60,70)
