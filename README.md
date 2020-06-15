@@ -32,7 +32,7 @@ smoke\_stat | smoking status | character | Never, Former, Current
 hypertension | Ever been diagnosed with hypertension | character | No, Yes
 systolic | Systolic blood pressure (mm Hg) | real |
 diastolic | Diastolic blood pressure (mm Hg) | real |
-t | Time horizon for the predicted probabilities (years) | [0,10]
+t | Time horizon for the predicted probabilities (years) | real | [0,10]
 
 
 Other variables can be included in the input file, but they are
