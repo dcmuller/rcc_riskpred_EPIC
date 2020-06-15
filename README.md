@@ -6,17 +6,17 @@ prediction model.
 ## How to use this code
 You will need to have the R statistical computing environment installed. To get started,
 download this repository, open an R session, and change the working directory to the downloaded
-repository. Typing `source("rcc_predict.R")` will make the function `predict_rcc` available
+repository. Typing `source("rcc_predict.R")` will make the function `rcc_predict` available
 in your R session. If you then type:
 ```
-predict_rcc()
+rcc_predict()
 ```
 the predicted probability of RCC will be calculated and saved. By default this will
 take covariate information from the file 'input.csv', calculate the probability of RCC 
 for each record therein and save the results in the file 'output.csv'. These default input and ouptut
 files can be changed by specifying them as arguments to `predict_rcc`:
 ```
-predict_rcc(data="my_input_file.csv", output="my_output_file.csv")
+rcc_predict(data="my_input_file.csv", output="my_output_file.csv")
 ```
 
 ## Input specification
