@@ -25,7 +25,7 @@ the following variables:
 
 variable name | description | type | valid values
 --------------|:------------|:-----|:-------------
-age | age in years | real | [40,70]
+age | age in years | real | [40,80)
 sex | sex of the participant | character | Female, Male
 bmi | Body Mass Index (kg/m^2) | real | 
 smoke\_stat | smoking status | character | Never, Former, Current
