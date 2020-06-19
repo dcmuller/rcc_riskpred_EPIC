@@ -16,7 +16,6 @@ rcs <- function(x, knts) {
   return(basis)
 }
 
-preddat <- read.csv("./utils/example_input.csv")
 
 rcc_predict <- function(data="./input.csv", output="./output.csv") {
   ### Parameters
